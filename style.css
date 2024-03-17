@@ -40,14 +40,17 @@
     font-size: 60px;
     line-height: 120%;
     color: #000000;
+    margin-bottom: 20px;
   }
 
   h2 {
+    width: 490px;
     font-family: "Gilroy-Regular";
     font-weight: 400;
     font-size: 20px;
     line-height: 140%;
     color: #888888;
+    margin-bottom: 32px;
   }
 
   .container {
@@ -55,8 +58,20 @@
     margin: 0 auto;
   }
 
+  .navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
   .header {
     margin-top: 40px;
+  }
+
+  .header__rightMenu {
+    width: 577px;
+    display: flex;
+    justify-content: space-between;
   }
 
   .header a {
@@ -74,11 +89,18 @@
   }
 
   .main {
+    margin-top: 84px;
     margin-bottom: 100px;
   }
 
   .mainContent {
+    display: flex;
+    gap: 73px;
+  }
 
+  .mainContent__leftSide-btns {
+    display: flex;
+    gap: 48px;
   }
 
 .mainContent__leftSide-leftBtn {
@@ -92,6 +114,7 @@
   color: #FFFFFF;
   border: none;
   cursor: pointer;
+  width: 140px;
 }
 
 .mainContent__leftSide-rightBtn {
@@ -106,10 +129,11 @@
 }
 
 .footer {
-  margin-top: 100px;
+  margin-top: 200px;
   margin-bottom: 100px;
 }
 
 .logos {
-
+  display: flex;
+  justify-content: space-between;
 }
