@@ -53,6 +53,27 @@
     margin-bottom: 32px;
   }
 
+  h3 {
+    font-family: "Gilroy-Bold";
+    font-weight: 700;
+    font-size: 24px;
+    color: #000000;
+    margin-top: 25px;
+    margin-bottom: 18px;
+  }
+
+  h4 {
+    display: flex;
+    align-content: center;
+    font-family: "Gilroy-Regular";
+    font-weight: 400;
+    line-height: 150%;
+    color: #666666;
+    font-size: 14px;
+    margin-bottom: 25px;
+    width: 310px;
+  }
+
   .container {
     max-width: 1174px;
     margin: 0 auto;
@@ -96,6 +117,7 @@
   .mainContent {
     display: flex;
     gap: 73px;
+    margin-bottom: 200px;
   }
 
   .mainContent__leftSide-btns {
@@ -128,12 +150,110 @@
   background-color: #FFFFFF;
 }
 
-.footer {
-  margin-top: 200px;
-  margin-bottom: 100px;
-}
-
 .logos {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 100px;
+}
+
+.readMore {
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+  margin-bottom: 100px;
+  margin-top: 100px;
+}
+
+.reedMoreLink {
+  font-family: "Gilroy-Semibold";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 150%;
+  color: #000000;
+}
+
+.readMore__middlePart {
+  padding: 40px 25px 30px 30px;
+  background: #FFF;
+  box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
+  gap: 25px;
+}
+
+.arguments {
+  background: #FAFAFA;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.arguments__title {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  font-family: "Gilroy-Bold";
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 120%;
+  color: #000000;
+  margin-bottom: 24px;
+}
+
+.arguments__subTitle {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-family: "Gilroy-Regular";
+  font-weight: 400;
+  line-height: 140%;
+  color: #888888;
+  font-size: 16px;
+  margin-bottom: 48px;
+  width: 740px;
+}
+
+.learnMore {
+  display: flex;
+  gap: 20px;
+}
+
+.learnMore__card {
+  text-align: center;
+  background-color: #FFFFFF;
+  padding-bottom: 34px;
+}
+
+.learnMore__middleCard {
+  text-align: center;
+  background-color: #FFFFFF;
+  padding-bottom: 34px;
+  background: #FFF;
+  box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
+  gap: 25px;
+}
+
+.learnMore__card-h3 {
+  display: flex;
+  justify-content: center;
+  font-size: 24px;
+  margin-bottom: 16px;
+  margin-top: 32px;
+}
+
+.learnMore__card-h4 {
+  font-size: 16px;
+  margin-bottom: 24px;
+  text-align: center;
+  margin-left: 34px;
+  margin-right: 34px;
+}
+
+.learnMore__card-btn {
+  padding: 16px 32px;
+  border-radius: 56px;
+  background: #F25822;
+  font-family: "Gilroy-Semibold";
+  font-weight: 600;
+  font-size: 16px;
+  color: #FFFFFF;
+  border: none;
+  cursor: pointer;
 }
